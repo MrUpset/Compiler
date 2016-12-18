@@ -1,0 +1,8 @@
+origin is (300, 300);	-- 设置原点的偏移量
+rot is 0;			    -- 设置旋转角度(不旋转)
+scale is (1, 1);		-- 设置横坐标和纵坐标的比例
+for T from -200 to 200 step 1 draw (t, t);
+for T from 0 to 200 step 0.5 draw (t, 10*t**0.5);
+for t from -15 to 15 step 0.01 draw (10*t, t**2);
+for t from -10 to 10 step 0.01 draw (20*t, 20*sin(t));
+for t from -10 to 10 step 0.01 draw (20*t, 20*cos(t)-100);

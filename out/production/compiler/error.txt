@@ -1,0 +1,2 @@
+rot is 0;
+origin is (3..0, 300) ;

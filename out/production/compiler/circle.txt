@@ -1,0 +1,24 @@
+origin is (300, 300);
+rot is 0;
+
+scale is (100, 100);
+FOR T FROM 0 TO 2**(2.5*3) STEP 3/50 DRAW (sin(T), cos(T));
+
+scale is (200, 200);
+FOR T FROM 0 TO 2**(2.5*3) STEP 3/50 DRAW (sin(T), cos(T));
+
+scale is (100, 100/3);
+
+FOR T FROM 0 TO 2**(2.5*3) STEP 3/50 DRAW (sin(T), cos(T));
+rot is PI/3;
+FOR T FROM 0 TO 2**(2.5*3) STEP 3/50 DRAW (sin(T), cos(T));
+rot is PI*2/3;
+FOR T FROM 0 TO 2**(2.5*3) STEP 3/50 DRAW (sin(T), cos(T));
+
+scale is (200, 200/3);
+rot is 0;
+FOR T FROM 0 TO 2**(2.5*3) STEP 3/50 DRAW (sin(T), cos(T));
+rot is PI/3;
+FOR T FROM 0 TO 2**(2.5*3) STEP 3/50 DRAW (sin(T), cos(T));
+rot is PI*2/3;
+FOR T FROM 0 TO 2**(2.5*3) STEP 3/50 DRAW (sin(T), cos(T));
